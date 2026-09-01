@@ -1,0 +1,17 @@
+{
+  "name": "sharepoint-iframe-reverse-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reverse proxy for embedding an external site in a SharePoint Online iframe.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "http-proxy-middleware": "3.0.5"
+  }
+}
